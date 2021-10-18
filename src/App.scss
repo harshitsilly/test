@@ -1,0 +1,25 @@
+.dropDownContainer {
+  width: 50px;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: lightgray;
+  position: relative;
+  border: 1px solid lightgray;
+}
+
+.dropDownItem {
+  border-top: 0;
+  cursor: pointer;
+  &:hover {
+    background-color: lightslategrey;
+  }
+}
+
+.dropDownContent {
+  width: 50px;
+  position: absolute;
+}
